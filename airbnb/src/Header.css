@@ -1,0 +1,47 @@
+.header{
+    /* margin-top: 10px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    /* if we dont use z-index then content will flow over the navbar. */
+    z-index:1; 
+    background-color: white;
+    width: 100%;
+    top: 0;
+}
+
+.header__icon{
+    object-fit: contain; 
+    /* object fit contain so that image dont stretch */
+    height: 40px;
+    width: 100px;
+    margin-left: 30px;
+}
+ 
+.header__center{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 99px;
+    padding: 10px;
+}
+
+.header__center > input{
+    border: none;
+    width: 200px;
+    /* to remove the border of the input field which comes when clicking for adding text, we use outline-width */
+    outline-width: 0; 
+    font-size: large;
+    padding-left: 20px;
+    
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    width: 250px;
+}

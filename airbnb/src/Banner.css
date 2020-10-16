@@ -1,0 +1,54 @@
+body{
+
+}
+
+.banner{
+    background: url("./images/16df1348-322f-4482-8694-3ccbdbf078b1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    position: relative;  
+    overflow-y: hidden;
+}
+
+.banner__search > button:hover {
+    background-color: white;
+}
+
+.banner__info{
+    background-color: black;
+    color: white;
+    height: 35vh;
+    padding-top: 120px ;  
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;   
+    overflow-y: hidden;
+}
+
+.banner__info > button {
+    background-color: #ff7779;
+    color: white;
+    /* text-transform: inherit; to make the text lower case as default was uppercase */
+    text-transform: inherit;
+}
+
+.banner__info > button:hover{
+    background-color: white;
+    color: #ff7779;
+}
+
+.banner__search{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.banner__search > button{
+    background-color: white;
+    color: #ff7779;
+    text-transform: inherit;
+    font-weight: 800;
+}
